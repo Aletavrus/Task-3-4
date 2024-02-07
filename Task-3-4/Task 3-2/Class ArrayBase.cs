@@ -1,5 +1,5 @@
 using System;
-public abstract class ArrayBase : IDimension, IPrinter
+public abstract class ArrayBase : IDimension
 {
     public void PublicInputArray()
     {
