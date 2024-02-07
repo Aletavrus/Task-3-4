@@ -1,10 +1,10 @@
 interface IDimension : IPrinter
 {
-    public abstract void PublicInputArray();
-    public abstract void PublicRandomArray();
-    public abstract void PublicCreateArray(bool userValues = false);
-    public abstract void Average();
-    public abstract void Recreate(bool userValues = false);
+    public void PublicInputArray();
+    public void PublicRandomArray();
+    public void PublicCreateArray(bool userValues = false);
+    public void Average();
+    public void Recreate(bool userValues = false);
 }
 
 interface IPrinter
