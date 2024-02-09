@@ -16,17 +16,24 @@ class HelloWorld
         arrayBase[0] = new OneDimension(userValues);
         arrayBase[1] = new TwoDimension(userValues);
         arrayBase[2] = new ManyDimension(userValues);
+        Console.WriteLine();
         for (int i = 0; i<arrayBase.Length; i++)
         {
-            arrayBase[i].Average();
             arrayBase[i].Print();
+            arrayBase[i].Average();
             Console.WriteLine();
         }
         WeekDays weekDays = new WeekDays();
-        for (int i = 0; i<arrayBase.Length; i++)
+        IPrinter[] printList = new IPrinter[arrayBase.Length + 1];
+        for (int i = 0; i<printList.Length-1; i++ )
         {
-            arrayBase[i].Print();
+            printList[i] = arrayBase[i];
         }
-        weekDays.Print();
+        printList[printList.Length-1] = weekDays;
+        foreach ( IPrinter printer in printList )
+        {
+            printer.Print();
+            Console.WriteLine();
+        }
     }
 }

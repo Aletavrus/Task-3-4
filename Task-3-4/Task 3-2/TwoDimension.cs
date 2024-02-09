@@ -106,7 +106,6 @@ sealed class TwoDimension : ArrayBase, ITwoDimension, IPrinter
             }
             Console.WriteLine(line);
         }
-        Console.WriteLine();
     }
 
     private string Reverse(string s)

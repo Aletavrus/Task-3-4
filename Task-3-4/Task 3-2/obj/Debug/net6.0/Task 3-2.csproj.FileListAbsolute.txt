@@ -13,3 +13,18 @@
 /home/user/Downloads/Task-3-2/Task 3-2/obj/Debug/net6.0/ref/Task 3-2.dll
 /home/user/Downloads/Task-3-2/Task 3-2/obj/Debug/net6.0/Task 3-2.pdb
 /home/user/Downloads/Task-3-2/Task 3-2/obj/Debug/net6.0/Task 3-2.genruntimeconfig.cache
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\bin\Debug\net6.0\Task 3-2.exe
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\bin\Debug\net6.0\Task 3-2.deps.json
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\bin\Debug\net6.0\Task 3-2.runtimeconfig.json
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\bin\Debug\net6.0\Task 3-2.dll
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\bin\Debug\net6.0\Task 3-2.pdb
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\obj\Debug\net6.0\Task 3-2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\obj\Debug\net6.0\Task 3-2.AssemblyInfoInputs.cache
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\obj\Debug\net6.0\Task 3-2.AssemblyInfo.cs
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\obj\Debug\net6.0\Task 3-2.csproj.CoreCompileInputs.cache
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\obj\Debug\net6.0\Task 3-2.sourcelink.json
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\obj\Debug\net6.0\Task 3-2.dll
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\obj\Debug\net6.0\refint\Task 3-2.dll
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\obj\Debug\net6.0\Task 3-2.pdb
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\obj\Debug\net6.0\Task 3-2.genruntimeconfig.cache
+D:\Git Projects\Task 3-4\Task-3-4\Task 3-2\obj\Debug\net6.0\ref\Task 3-2.dll

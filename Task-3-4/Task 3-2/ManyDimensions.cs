@@ -72,7 +72,6 @@
             }
             Console.WriteLine();
         }
-        Console.WriteLine();
     }
 
     public override void Average()
