@@ -2,7 +2,7 @@
 using System.Data;
 using System.Drawing;
 
-sealed class TwoDimension : ArrayBase, ITwoDimension, IPrinter
+sealed class TwoDimension : ArrayBase, ITwoDimension
 {
     private Random random = new Random();
     private int[,] _array;

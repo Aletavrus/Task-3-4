@@ -1,4 +1,4 @@
-﻿sealed class ManyDimension : ArrayBase, IManyDimension, IPrinter
+﻿sealed class ManyDimension : ArrayBase, IManyDimension
 {
     private Random _random = new Random();
     private int[][] _array;

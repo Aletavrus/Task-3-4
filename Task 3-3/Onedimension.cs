@@ -1,5 +1,5 @@
 ﻿
-sealed class OneDimension:ArrayBase, IOneDimension, IPrinter
+sealed class OneDimension:ArrayBase, IOneDimension
 {
     private Random _random = new Random();
     private int[] _array;
