@@ -16,6 +16,7 @@ sealed class OneDimension<T> : ArrayBase
     public override void Print()
     {
         Print(_array);
+        Console.WriteLine();
     }
 
     private static void Print(T[] array)

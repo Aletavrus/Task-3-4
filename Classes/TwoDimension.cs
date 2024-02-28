@@ -62,6 +62,7 @@ sealed class TwoDimension<T> : ArrayBase
         }
         Console.WriteLine("And an array with reversed even lines");
         PrintEvenLines();
+        Console.WriteLine();
     }
 
     private void PrintEvenLines() //элементы четных строк в обратном порядке

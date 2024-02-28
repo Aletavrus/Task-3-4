@@ -1,4 +1,5 @@
-﻿sealed class ManyDimension<T>: ArrayBase
+﻿using System.Collections.Generic;
+sealed class ManyDimension<T>: ArrayBase
 {
     private T[][] _array;
     private IElementGenerator<T> _elementGenerator;
@@ -22,12 +23,14 @@
     }
     protected override void InputArray()
     {
-        for (int i = 0; i < _array.GetLength(0); i++)
+        for (int i = 0; i < _array.Length; i++)
         {
-            Console.WriteLine("Enter values of 1 line in 1 string with spaces between elements");
+            Console.WriteLine("Enter size of an inner array");
+            int size = int.Parse(Console.ReadLine());
+            _array[i] = new T[size];
             string input = Console.ReadLine();
             string[] inputList = input.Split();
-            for (int j = 0; j < inputList.GetLength(1); j++)
+            for (int j = 0; j < _array[i].Length; j++)
             {
                 T inputToType = (T)Convert.ChangeType(inputList[j], typeof(T));
                 _array[i][j] = inputToType;
@@ -38,9 +41,11 @@
 
     protected override void RandomArray()
     {
-        for (int i = 0; i < _array.GetLength(0); i++)
+        for (int i = 0; i < _array.Length; i++)
         {
-            for (int j = 0; j < _array.GetLength(1); j++)
+            int size = _random.Next(1, 5);
+            _array[i] = new T[size];
+            for (int j = 0; j < _array[i].Length; j++)
             {
                 _array[i][j] = _elementGenerator.GenerateRandom();
             }
@@ -50,6 +55,7 @@
     public override void Print()
     {
         Print(_array);
+        Console.WriteLine();
     }
 
 

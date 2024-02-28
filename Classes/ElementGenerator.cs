@@ -30,7 +30,9 @@ class DoubleGenerator: IElementGenerator<double>
     public double GenerateRandom()
     {
         int coeff = _random.Next(1, 10);
-        return coeff*_random.NextDouble();
+        double number = _random.NextDouble();
+        number = Math.Round(number, 2, MidpointRounding.ToEven);
+        return number*coeff;
     }
 }
 
