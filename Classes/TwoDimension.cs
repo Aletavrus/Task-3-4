@@ -27,7 +27,7 @@ sealed class TwoDimension<T> : ArrayBase
     {
         for (int i = 0; i < _array.GetLength(0); i++)
         {
-            Console.WriteLine("Enter values of 1 line in 1 string with spaces between elements");
+            Console.WriteLine($"Enter values of 1 line in 1 string with spaces between elements (type must be {typeof(T)})");
             string input = Console.ReadLine();
             string[] inputList = input.Split();
             for (int j = 0; j < _array.GetLength(1); j++)

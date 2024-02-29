@@ -28,6 +28,7 @@ sealed class ManyDimension<T>: ArrayBase
             Console.WriteLine("Enter size of an inner array");
             int size = int.Parse(Console.ReadLine());
             _array[i] = new T[size];
+            Console.WriteLine($"Enter values of an inner array in 1 string (type must be {typeof(T)})");
             string input = Console.ReadLine();
             string[] inputList = input.Split();
             for (int j = 0; j < _array[i].Length; j++)

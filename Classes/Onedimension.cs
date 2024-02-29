@@ -38,7 +38,7 @@ sealed class OneDimension<T> : ArrayBase
 
     protected override void InputArray()
     {
-        Console.WriteLine("Enter a string with all values of an array separated by spaces");
+        Console.WriteLine($"Enter a string with all values of an array separated by spaces (type must be {typeof(T)})");
         string input = Console.ReadLine();
         string[] inputList = input.Split();
         for (int i = 0; i< inputList.Length; i++)
